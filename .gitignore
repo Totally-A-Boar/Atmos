@@ -1,45 +1,85 @@
-.gradle
+# Kotlin/Java/Gradle
+.gradle/
 build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Kotlin ###
-.kotlin
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+*.iml
+.idea/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.hprof
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Kotlin Multiplatform shared output
+shared/build/
+shared/out/
 
-### VS Code ###
+# Jetpack Compose artifacts
+.compose-cache/
+.kotlinc/
+
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+*.o
+*.so
+*.DS_Store
+captures/
+local.properties
+*.keystore
+*.jks
+
+# Android NDK / JNI
+obj/
+.cxx/
+.externalNativeBuild/
+
+# CMake/C++
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Compiler/intermediate files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dSYM/
+*.exe
+
+# Electron/Web
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
 .vscode/
 
-### Mac OS ###
+# OS and Editor Files
 .DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# IDEs and Tools
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Misc
+*.log
+logs/
+*.orig
+*.rej
