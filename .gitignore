@@ -1,0 +1,85 @@
+# Kotlin/Java/Gradle
+.gradle/
+build/
+out/
+bin/
+*.iml
+.idea/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.hprof
+
+# Kotlin Multiplatform shared output
+shared/build/
+shared/out/
+
+# Jetpack Compose artifacts
+.compose-cache/
+.kotlinc/
+
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+*.o
+*.so
+*.DS_Store
+captures/
+local.properties
+*.keystore
+*.jks
+
+# Android NDK / JNI
+obj/
+.cxx/
+.externalNativeBuild/
+
+# CMake/C++/native code
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Compiler/intermediate files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dSYM/
+*.exe
+
+# Electron
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+.vscode/
+
+# OS and Editor Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# IDEs and Tools
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Misc
+*.log
+logs/
+*.orig
+*.rej
